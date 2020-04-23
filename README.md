@@ -8,7 +8,7 @@ Ubuntu 16.04 and CUDA 10.0
 
 ## Create a fresh virtual environment
 ```
-virtualenv -p python3.7.7 pytorch_YOLO
+virtualenv -p python3.7 pytorch_YOLO
 source pytorch_YOLO/bin/activate
 python --version "It returns 3.7"     
 ```
