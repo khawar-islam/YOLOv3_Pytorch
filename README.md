@@ -10,5 +10,6 @@ Ubuntu 16.04 and CUDA 10.0
 ```
 virtualenv -p python3.7 pytorch_YOLO
 source pytorch_YOLO/bin/activate
+cd pytorch_YOLO
 python --version "It returns 3.7"     
 ```
