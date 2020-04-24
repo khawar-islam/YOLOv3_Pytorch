@@ -13,3 +13,6 @@ source pytorch_YOLO/bin/activate
 cd pytorch_YOLO
 python --version "It returns 3.7"     
 ```
+``` python -c "import torch; print(torch.cuda.is_available())" ```
+
+Must return "True"
